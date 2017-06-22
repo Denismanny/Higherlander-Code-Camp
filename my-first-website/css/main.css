@@ -1,1 +1,95 @@
+#top-nav {
+    width: 100%;
+    height: 10%;
+    background: black; 
+}
+#top-nav p {
+    color: blue; 
+    font-size: 2em; 
+}
+#top-nav span {
+    color: red; 
+}
+#top-nav p, #top-nav nav {
+    line-height: 65px; 
+}
 
+#top-nav nav a {
+    color: white;
+    font-size: 1.5em; 
+    transition: linear .2s; 
+    padding-right: 15px; 
+}
+#top-nav nav a:hover {
+    text-decoration: none; 
+    color: blue; 
+}
+#site-title {
+    text-align: center;
+    background-color: thistle; 
+    padding: 25px 0px;
+    margin-top: 0px; 
+}
+
+#three-images {
+    margin: 40px 0px 50px 0px; 
+}
+#three-images img{
+    width: 100%; 
+    border: 3px solid #ccc; 
+    box-shadow: 2px 8px 20px #343434; 
+}
+h4 {
+    text-align: center; 
+    color: red; 
+}
+#p1 {
+    text-align: justify;
+}
+#p2 {
+    text-align: center; 
+}
+#p3 {
+    text-align: right; 
+}
+#three-images button {
+    float: right; 
+}
+hr {
+    width: 75%; 
+    border-top: 3px dotted #aaa; 
+}
+form {
+    text-align: center; 
+}
+#dis {
+    font-size: 12px; 
+    text-align: center; 
+}
+
+#light-grey {
+    width: 100%; 
+    background: #ccc; 
+}
+#video {
+    width: 50%;
+    height: 50%; 
+    color: aliceblue; 
+}
+iframe {
+    margin-top: 50px;
+    margin-bottom: 40px; 
+    width: 100%; 
+    max-width: 750px;
+    height: 425px;
+    border: 2px solid #ddd;
+    box-shadow: 3px 8px 50px black; 
+}
+footer {
+    width: 100%; 
+    height: 50px;
+    background: black; 
+    margin: 0px; 
+    text-align: center; 
+    color: white; 
+}
